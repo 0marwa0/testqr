@@ -23,7 +23,7 @@ class App extends Component {
           delay={300}
           onError={this.handleError}
           onScan={this.handleScan}
-          facingMode={user}
+          facingMode="user"
           style={{ width: '100%' }}
         />
         <p>{this.state.result}</p>
